@@ -1,69 +1,24 @@
-/* header for every page */
+
 body{
-    background-color: tan;
-    margin: auto;
-    padding: 50px
+    background-color: grey;
+  
 }
 
-header{
-    padding-bottom: 25px;
-    background-color: white
-}
 
-header h1{
+#logo{
     text-align: center;
     font-weight: bold;
     font-family: 'Pacifico', cursive;
     font-size: 70px;
 }
-/* nav links */
-
-a:link{
-    
-   
-}
-
-a:hover{
-    font-weight: bold
-}
-
-a:active{
-    text-decoration: none
-}
-
- a:visited{
-   background-color: red;
-}
 
 
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-    
-}
-
-ul li{
-    display: inline;
-    
-}
-
-/* image on home page */
-img{
-   
-    padding: 100px;
-    width: 50%;
-}
-
-/*table head on menu page*/
-th{
-    font-size: 25px
-}
-
-/*footer on every page*/
-footer p{
+footer {
     text-align: center;
-    background-color: white
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    margin-bottom: 0%;
+   background-color: white
 }
+
